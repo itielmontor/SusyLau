@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizar Pedido - Susylau</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="catalog.html">Catálogo</a>
+            <a href="profile.html">Mi Perfil</a>
+            <a href="cart.html">Carrito</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Personaliza tu Pedido</h1>
+        <form action="cart.html" method="post">
+            <label for="size">Tamaño:</label>
+            <select id="size" name="size">
+                <option value="pequeño">Pequeño</option>
+                <option value="mediano">Mediano</option>
+                <option value="grande">Grande</option>
+            </select>
+
+            <label for="flavor">Sabor:</label>
+            <select id="flavor" name="flavor">
+                <option value="vainilla">Vainilla</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="fresa">Fresa</option>
+            </select>
+
+            <label for="message">Mensaje Personalizado:</label>
+            <input type="text" id="message" name="message" placeholder="Escribe un mensaje...">
+
+            <button type="submit" class="btn">Añadir al Carrito</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Susylau. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://x.com" target="_blank">X</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
